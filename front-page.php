@@ -13,10 +13,12 @@
  */
 
 get_header(); ?>
-    <div class="top">
+<div class="top">
         <div class="company_name f_futura">Dsyl Co., Ltd.</div>   
-    </div>
-    <div class="business">
+</div>
+    
+
+<div class="business">
         <div class="section_title color-white">BUSINESS</div>
         <div class="grid_wrapper">
             <div class="grid">
@@ -53,6 +55,7 @@ get_header(); ?>
             上記のほかにも、様々な事業を手がけています。
         </div>
     </div>
+    
     <div class="company">
         <div class="section_title emphasis">COMPANY</div>
         <div class="info_wrapper">
@@ -78,7 +81,7 @@ get_header(); ?>
                         営業所
                     </div>
                     <div class="row_body">
-                        大阪市中央区安堂寺町2丁目2番15号　島田ビル４０５号
+                        大阪市中央区安堂寺町2丁目2番15号<br>島田ビル405号
                     </div>
                 </div>
                 <div class="row">
@@ -102,7 +105,7 @@ get_header(); ?>
                         資本金
                     </div>
                     <div class="row_body">
-                        ３００万
+                        300万
                     </div>
                 </div>
                 <div class="row">
@@ -110,7 +113,7 @@ get_header(); ?>
                         事業内容
                     </div>
                     <div class="row_body">
-                        化粧品・衣料品・ブランド品の買取、小売り及び業者販売
+                        化粧品・衣料品・ブランド品の買取<br>小売り及び業者販売
                     </div>
                 </div>
                 <div class="row">
@@ -118,17 +121,19 @@ get_header(); ?>
                         免許番号
                     </div>
                     <div class="row_body">
-                        古物商 大阪府公安委員会　現在申請中
+                        古物商 大阪府公安委員会<br>現在申請中
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="contact">
+    <div class="contact color-white">
         <div class="section_title">CONTACT US</div>
         <div class="text">
             メールにてお問い合わせください。
         </div>
     </div>
+
+    
 <?php
 get_footer();

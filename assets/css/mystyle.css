@@ -3,9 +3,13 @@ body{
     font-family: "Noto Sans JP";
     font-weight: 400;
     font-size: 18px;
+    font-variant-ligatures: none;
 }
 img{
     width: 100%;
+}
+.top_wrapper{
+    max-width: 1330px;
 }
 .f_futura{
     font-family: futura-pt, sans-serif;
@@ -18,8 +22,8 @@ img{
     font-style: normal;
     font-size: 22px;
     text-align: center;
-    padding-bottom: 5%;
-    letter-spacing: 5px;
+    padding: 5% 0;
+    letter-spacing: 10px;
 }
 .color-white{
     color: #ffffff;
@@ -34,7 +38,7 @@ img{
 
 .top{
     position: relative;
-    height: 443px;
+    height: 670px;
     background-color: gray;
     background-image: url(../img/top.jpg);
     background-repeat:no-repeat;
@@ -63,7 +67,7 @@ img{
 .business{
     background-color: #221f20;
     /* color: #ffffff; */
-    padding: 5% 0;
+    /* padding: 5% 0; */
 }
 .business .grid_wrapper{
     width: 100%;
@@ -90,6 +94,7 @@ img{
 }
 .business .business_exp {
     padding: 0 5% 5% 5%;
+    line-height: 1.7;
 }
 .business .img_wrapper{
     width: 100%;
@@ -99,7 +104,7 @@ img{
 }
 .business .etc_text{
     text-align: center;
-    padding-top: 5%;
+    padding: 5% 0;
     color: #ffffff;
 }
 
@@ -108,32 +113,34 @@ img{
 
 
 .company {
-    padding: 5% 0;
+    /* padding: 5% 0; */
 }
 .company .info_wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin-bottom: 5%;
 }
 .company .info_detail{
     width: 60%;
     border-top: solid 2px #000000;
     border-bottom: solid 1px #0e0e0e;
+    padding: 5% 0;
 }
 .company .row{
     display: flex;
-    padding: 3% 0;
+    padding: 2% 0;
 }
 .company .row_label{
     width: 30%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+
 }
 .company .row_body{
     width: 70%;
-    
+    line-height: 1.5;
 }
 
 
@@ -141,8 +148,43 @@ img{
 
 
 .contact {
-    padding: 5% 0;
+    /* padding: 5% 0; */
+    background-color: #4ab577;
 }
 .contact .text{
     text-align: center;
 }
+
+@media screen and (max-width:768px){
+    .company_name{
+        font-size: 40px;
+    }
+    .business .business_title{
+        font-size: 20px;
+        padding: 8% 0;
+    }
+    body{
+        font-size: 14px;
+    }
+    .business .grid_wrapper .grid{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .business .grid_wrapper .content{
+        width: 100%;
+        margin: 1% 0%;
+    }
+    .company .info_detail{
+        width: 90%;
+    }
+    .company .row{
+        padding: 5% 0;
+    }
+    .section_title{
+        padding: 10% 0;
+    }
+    .business .business_exp{
+        padding: 0 3% 5% 3%;
+    }
+}
+    
