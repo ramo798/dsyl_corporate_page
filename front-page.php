@@ -21,7 +21,9 @@ get_header(); ?>
         <div class="grid_wrapper">
             <div class="grid">
                 <div class="content">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/noimg.jpg">
+                    <div class="img_wrapper">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/business1.jpg">
+                    </div>
                     <div class="business_title">
                         ブランド品の仕入れ買取
                     </div>
@@ -33,7 +35,9 @@ get_header(); ?>
                 </div>
 
                 <div class="content">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/noimg.jpg">
+                    <div class="img_wrapper">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/business2.jpg">
+                    </div>
                     <div class="business_title">
                         化粧品の販売
                     </div>
@@ -46,11 +50,11 @@ get_header(); ?>
             </div>
         </div>
         <div class="etc_text">
-            上記のほかにも、新規事業が進行しております。
+            上記のほかにも、様々な事業を手がけています。
         </div>
     </div>
     <div class="company">
-        <div class="section_title">COMPANY</div>
+        <div class="section_title emphasis">COMPANY</div>
         <div class="info_wrapper">
             <div class="info_detail">
                 <div class="row">
