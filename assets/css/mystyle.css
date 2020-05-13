@@ -1,0 +1,138 @@
+body{
+    font-family: "Noto Sans JP";
+    font-weight: 400;
+    font-size: 18px;
+}
+.f_futura{
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.section_title{
+    font-family: futura-pt, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 5%;
+    letter-spacing: 5px;
+}
+.color-white{
+    color: #ffffff;
+}
+
+
+
+
+
+.top{
+    position: relative;
+    height: 443px;
+    background-color: gray;
+    background-image: url(img/top.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.company_name{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    font-size: 60px;
+    letter-spacing: 8px;
+}
+
+
+
+
+
+.business{
+    background-color: #221f20;
+    /* color: #ffffff; */
+    padding: 5% 0;
+}
+.business .grid_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.business .grid_wrapper .grid{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.business .grid_wrapper .content{
+    width: 50%;
+    background-color: #ffffff;
+    margin: 0 1%;
+}
+.business .business_title {
+    text-align: center;
+    font-size: 24px;
+    /* font-weight: 500; */
+    padding: 5% 0;
+}
+.business .business_exp {
+    padding: 0 5% 5% 5%;
+}
+.business .img_wrapper{
+    width: 400px;
+    height: 224px;
+}
+.business .img{
+    width: 100%;
+}
+.business .etc_text{
+    text-align: center;
+}
+
+
+
+
+
+.company {
+    padding: 5% 0;
+}
+.company .info_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.company .info_detail{
+    width: 60%;
+    border-top: solid 2px #000000;
+    border-bottom: solid 1px #0e0e0e;
+}
+.company .row{
+    display: flex;
+    padding: 3% 0;
+}
+.company .row_label{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company .row_body{
+    width: 70%;
+    
+}
+
+
+
+
+
+.contact {
+    padding: 5% 0;
+}
+.contact .text{
+    text-align: center;
+}

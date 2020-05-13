@@ -1,0 +1,12 @@
+*.php
+*.css
+*.txt
+*.png
+inc/
+template-parts/
+!front-page.php
+assets/css/*.css
+!assets/css/mystyle.css
+assets/images/
+assets/img/
+assets/js/
