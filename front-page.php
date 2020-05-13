@@ -132,6 +132,10 @@ get_header(); ?>
         <div class="text">
             メールにてお問い合わせください。
         </div>
+        <div class="contact_button_wrapper">
+            <a href="https://www.cman.jp" class="contact_button">CONTACT</a>
+        </div>
+
     </div>
 
     

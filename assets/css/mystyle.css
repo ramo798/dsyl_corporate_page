@@ -154,6 +154,39 @@ img{
 .contact .text{
     text-align: center;
 }
+.contact_button {
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #4ab577;
+    /* background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%); */
+    background-color: #ffffff;
+    transition: .4s;
+}
+.contact_button:hover {
+    background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+}
+.contact_button_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+}
+.contact_button {
+    display       : inline-block;
+    border-radius: 40px;
+    text-align    : center;
+    cursor        : pointer;
+    padding       : 12px 12px;
+    background    : #ffffff;
+    color         : #4ab577; 
+    transition    : .3s;
+  }
+  .contact_button:hover {
+    color         : #ffffff; 
+    background    : #000000;
+  }
 
 @media screen and (max-width:768px){
     .company_name{
@@ -178,7 +211,7 @@ img{
         width: 90%;
     }
     .company .row{
-        padding: 5% 0;
+        padding: 10% 0;
     }
     .section_title{
         padding: 10% 0;
